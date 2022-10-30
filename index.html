@@ -14,18 +14,18 @@
     <script src="https://cdn.tailwindcss.com"></script>
 </head>
 
-<body class="bg-indigo-700 h-screen flex flex-col items-center justify-center">
+<body id="main-box" class="bg-indigo-700 h-screen flex flex-col items-center justify-center">
     <div class="w-[60%] bg-yellow-300 p-[40px] rounded text-center">
         <h1 class="bold text-[20px]">BOOK<span class="text-indigo-700 text-[25px] bolder">MARK</span></h1>
         <div class="flex flex-col">
-            <input type="text" placeholder="Insert your Bookmark Name" name="" id="" class="w-90 m-4 p-2 rounded bold">
-            <input type="text" placeholder="Insert your Bookmark Link" name="" id="" class="w-90 m-4 p-2 rounded bold ">
+            <input id="site" type="text" placeholder="Insert your Bookmark Name" name="" id="" class="w-90 m-4 p-2 rounded bold">
+            <input id="siteUrl" type="text" placeholder="Insert your Bookmark Link" name="" id="" class="w-90 m-4 p-2 rounded bold ">
         </div>
         <div class="flex items-center justify-around">
-            <button class="bg-sky-500 text-white bold hover:bg-green-400 p-2 rounded m-2">
+            <button id="addBtn" class="bg-sky-500 text-white bold hover:bg-green-400 p-2 rounded m-2">
                 BOOKMARK
             </button>
-            <button class="bg-sky-500 text-white bold hover:bg-red-700 px-6 py-2 rounded mt-2 mb-2">
+            <button id="removeBtn" class="bg-sky-500 text-white bold hover:bg-red-700 px-6 py-2 rounded mt-2 mb-2">
                 REMOVE
             </button>
         </div>
