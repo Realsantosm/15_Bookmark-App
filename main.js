@@ -5,4 +5,4 @@ const saveUrl = document.querySelector("#siteUrl");
 const addBtn = document.querySelector("#addBtn");
 const removeBtn = document.querySelector("#removeBtn");
 
-console.table(siteName + " " + saveUrl + " " + addBtn + " " + removeBtn);
+// Adding comments to the js File
